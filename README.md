@@ -1,9 +1,22 @@
-# AcousticSpace
-Deepfake Audio Detection using AI and Machine Learning
 ## Project Status
 
-Day 1 Completed
+### Completed
 
-Repository Created
-Project Structure Created
-Documentation Started
+- Repository Created
+- Project Structure Initialized
+- Documentation Started
+- Python Virtual Environment Configured
+- FastAPI Backend Initialized
+- First API Endpoint Created
+
+### In Progress
+
+- Backend Development
+
+### Upcoming
+
+- Audio Upload API
+- Audio Preprocessing
+- Deepfake Detection Model
+- React Frontend
+- Docker Deployment
