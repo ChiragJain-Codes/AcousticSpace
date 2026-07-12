@@ -12,6 +12,7 @@
 ### In Progress
 
 - Backend Development
+- Audio Upload API Implemented
 
 ### Upcoming
 
