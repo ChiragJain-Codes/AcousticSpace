@@ -1,23 +1,46 @@
-## Project Status
+# AcousticSpace
 
-### Completed
+## Overview
+AcousticSpace is an AI-based voice spoof detection system that classifies an uploaded audio file as either:
+- Bonafide (Real Human Voice)
+- Spoof (AI/Fake Voice)
 
-- Repository Created
-- Project Structure Initialized
-- Documentation Started
-- Python Virtual Environment Configured
-- FastAPI Backend Initialized
-- First API Endpoint Created
+---
 
-### In Progress
+## Tech Stack
 
-- Backend Development
-- Audio Upload API Implemented
+- Python
+- FastAPI
+- Librosa
+- NumPy
+- Matplotlib
 
-### Upcoming
+---
 
-- Audio Upload API
-- Audio Preprocessing
-- Deepfake Detection Model
-- React Frontend
-- Docker Deployment
+## Project Progress
+
+### ✅ Day 1
+- Project setup
+- Backend folder structure
+- FastAPI installation
+- First API endpoint
+
+### ✅ Day 2
+- Audio upload API
+- Upload folder implementation
+- API testing using FastAPI Docs
+
+### ✅ Day 3
+- Librosa integration
+- Audio loading
+- Waveform generation
+- Mel Spectrogram generation
+
+---
+
+## Upcoming Work
+
+- MFCC Feature Extraction
+- CNN Model
+- Model Integration
+- Frontend Integration
