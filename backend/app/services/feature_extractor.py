@@ -59,3 +59,14 @@ def generate_spectrogram(file_path):
 
     plt.tight_layout()
     plt.show()
+
+def extract_mfcc(file_path):
+    audio, sample_rate = load_audio(file_path)
+
+    mfcc = librosa.feature.mfcc(
+        y=audio,
+        sr=sample_rate,
+        n_mfcc=13
+    )
+
+    return mfcc

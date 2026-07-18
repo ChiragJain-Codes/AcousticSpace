@@ -1,7 +1,8 @@
-from services.feature_extractor import generate_waveform, generate_spectrogram
+from services.feature_extractor import extract_mfcc
 
 audio_path = "uploads/file_example_MP3_1MG.mp3"
 
-generate_waveform(audio_path)
+mfcc = extract_mfcc(audio_path)
 
-generate_spectrogram(audio_path)
+print("MFCC Shape:", mfcc.shape)
+print(mfcc)
